@@ -1,0 +1,10 @@
+body{
+    max-width: 1920px;
+    min-height: 100vh;
+    background: aliceblue;
+}
+
+.options{
+    background: #FFC22A;
+    
+}

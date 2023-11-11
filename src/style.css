@@ -4,6 +4,7 @@ body{
     background: aliceblue;
     padding: 0;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .options {
@@ -12,7 +13,7 @@ body{
     min-height: 100vh;
     background-color: #FFC22A;
     width: 20vw;
-    align-items: center;   
+    align-items: center; 
 }
 
 #logoS {
@@ -26,9 +27,27 @@ body{
 }
 
 #OpIm {
-    width: 4vw;
+    width: 3.5vw;
 }
 
-#OpBtn {
-    font-size: 4vw;
+.OpBtn {
+    display: flex;
+    font-size: 1.5vw;
+    align-items: center;
+}
+
+#UserBtn{
+    position: relative;
+    right: 3vw;
+    gap: 3vw;
+}
+
+#ToolBtn{
+    position: relative;
+    right: 2.4vw;
+    gap: 1.5vw;
+}
+
+#EncBtn img{
+    width: 1.5vw;
 }

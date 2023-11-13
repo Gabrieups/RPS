@@ -12,15 +12,21 @@
         <aside class="options">
             <img id="logoS" src="src/imagens/sotreq_logo.png" alt="logo">
             <button class="OpBtn" id="UserBtn"><img  id="OpIm" src="src/imagens/perfil.png" alt="userimg">Usuários</button>
+            <hr class="line">
             <button class="OpBtn" id="ToolBtn"><img  id="OpIm" src="src/imagens/ferramentas.png" alt="toolimg">Ferramentas</button>
             <p id="user">Usuário conectado</p>
             <button id="EncBtn"><img src="src/imagens/x.png" alt="sair">Sair</button>
         </aside>
 
         <div class="main">
-            <div class="guide">
-                <button id="BuscaBtn">Buscar</button>
-                <button id="CadBtn">Cadastrar</button>
+            <div class="guideU">
+                <button id="UBuscaBtn">Buscar</button>
+                <button id="uCadBtn">Cadastrar</button>
+            </div>
+
+            <div class="guideT">
+                <button id="TBuscaBtn">Buscar</button>
+                <button id="TCadBtn">Cadastrar</button>
             </div>
 
             <div class="mainUser">
@@ -29,24 +35,52 @@
                     <input type="text" name="ubid" id="UBId" placeholder="ID">
                     <input type="text" name="telub" id="UBTelIn" placeholder="Nº de Telefone">
                     <input type="text" name="coditem" id="UBCodItIn" placeholder="Cod. Item">
-                    <input type="date" name="dtin" id="UBDateIn" placeholder="De:">
-                    <input type="date" name="dtf" id="UBDateF" placeholder="Até:">
-                    <button id="UBBuscarBtn"><img src="src/imagens/save.png" alt="buscar"></button>
-                    <input type="text" name="ubtbl" id="UBTbl">
+                    <input type="text" name="dtin" id="UBDateIn" placeholder="De:" onfocus="this.type='date'" onblur="if (!this.value) this.type='text'">
+                    <input type="text" name="dtf" id="UBDateF" placeholder="Até:" onfocus="this.type='date'" onblur="if (!this.value) this.type='text'">
+                    <button class="saveBtn" id="UBBuscarBtn"><img class="SaveImgBtn" src="src/imagens/save.png" alt="salvar"></button>
                 </div>
                     
                 <div id="UserCadParamater">
                     <input type="text" name="name" id="UCNameIn" placeholder="Nome">
+                    <input type="text" name="cpf" id="UCCPF" placeholder="CPF">
+                    <input type="text" name="ender" id="UCEnder" placeholder="Endereço">
+                    <input type="text" name="id" id="UCId" placeholder="ID">
+                    <input type="text" name="teluc" id="UCTelIn" placeholder="N° de Telefone">
+                    <select name="select" id="UCselect">
+                        <option value="status">Status</option>
+                        <option value="ativo">Ativo</option>
+                        <option value="inativo">Inativo</option>
+                    </select>
+                    <button class="saveBtn" id="UCBuscarBtn"><img class="SaveImgBtn" src="src/imagens/save.png" alt="salvar"></button>
                 </div>
             </div>
     
             <div class="mainTool">
                 <div id="ToolBuscaParamater">
-                    <input type="text" name="name" id="TBNameIn" placeholder="Nome">
+                    <input type="text" name="name" id="TBNameIn" placeholder="Usuário">
+                    <input type="text" name="id" id="TBId" placeholder="ID">
+                    <input type="text" name="tool" id="TBToolIn" placeholder="Patrimônio">
+                    <input type="text" name="item" id="TBCoditemIn" placeholder="Cod. Item">
+                    <select name="select" id="TBselect">
+                        <option value="status">Fabricante</option>
+                    </select>
+                    <button class="saveBtn" id="TBBuscarBtn"><img class="SaveImgBtn" src="src/imagens/save.png" alt="salvar"></button>
                 </div>
                     
                 <div id="ToolCadParamater">
-                    <input type="text" name="name" id="TCNameIn" placeholder="Nome">
+                    <input type="text" name="tool" id="TCToolIn" placeholder="Ferramenta">
+                    <input type="text" name="item" id="TCCoditemIn" placeholder="Cod. Item">
+                    <input type="text" name="name" id="TCNameIn" placeholder="Usuário">
+                    <input type="text" name="id" id="TCId" placeholder="ID">
+                    <select name="select" id="TCFselect">
+                        <option value="status">Fabricante</option>
+                    </select>
+                    <select name="select" id="TCSselect">
+                        <option value="status">Status</option>
+                        <option value="ativo">Ativo</option>
+                        <option value="inativo">Inativo</option>
+                    </select>
+                    <button class="saveBtn" id="TCBuscarBtn"><img class="SaveImgBtn" src="src/imagens/save.png" alt="salvar"></button>
                 </div>
             </div>
         </div>

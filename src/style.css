@@ -56,11 +56,11 @@ body{
     width: 1.5vw;
 }
 
-#UserBuscaParamater img {
+.SaveImgBtn {
     width: 6vw;
 }
 
-#UBBuscarBtn{
+.saveBtn{
     background: none;
     border: 0;
     cursor: pointer;

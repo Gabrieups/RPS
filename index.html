@@ -10,27 +10,27 @@
 </head>
 <body>
     <div class="Page">
-        <aside class="options">
+        <div class="options">
             <img id="logoS" src="src/imagens/sotreq_logo.png" alt="logo">
-            <button class="OpBtn" id="UserBtn"><img  id="OpIm" src="src/imagens/perfil.png" alt="userimg">Usuários</button>
+            <button id="UserBtn" class="OpBtn"><img  id="OpIm" src="src/imagens/perfil.png" alt="userimg">Usuários</button>
             <hr class="line">
-            <button class="OpBtn" id="ToolBtn"><img  id="OpIm" src="src/imagens/ferramentas.png" alt="toolimg">Ferramentas</button>
+            <button id="ToolBtn" class="OpBtn"><img  id="OpIm" src="src/imagens/ferramentas.png" alt="toolimg">Ferramentas</button>
             <p id="user">Usuário conectado</p>
             <button id="EncBtn"><img src="src/imagens/x.png" alt="sair">Sair</button>
-        </aside>
+        </div>
 
         <div class="main">
-            <div class="guideU">
+            <div id="guideU">
                 <button id="UBuscaBtn">Buscar</button>
                 <button id="uCadBtn">Cadastrar</button>
             </div>
 
-            <div class="guideT">
+            <div id="guideT">
                 <button id="TBuscaBtn">Buscar</button>
                 <button id="TCadBtn">Cadastrar</button>
             </div>
 
-            <div class="mainUser">
+            <div id="mainUser">
                 <div id="UserBuscaParamater">
                     <input type="text" name="name" id="UBNameIn" placeholder="Nome">
                     <input type="text" name="ubid" id="UBId" placeholder="ID">
@@ -59,7 +59,7 @@
                 </div>
             </div>
     
-            <div class="mainTool">
+            <div id="mainTool">
                 <div id="ToolBuscaParamater">
                     <input type="text" name="name" id="TBNameIn" placeholder="Usuário">
                     <input type="text" name="id" id="TBId" placeholder="ID">

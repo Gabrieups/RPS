@@ -53,23 +53,17 @@ body{
     gap: 3vw;
 }
 
-#ToolBtn{
-    position: relative;
-    right: 2.4vw;
-    gap: 1.5vw;
-}
-
 #EncBtn img{
     width: 1.5vw;
 }
 
-.guideU{
+#guideU{
     position: fixed;
     z-index: 1;
     top: .5vw;
 }
 
-.guideU button{
+#guideU button{
     color: black;
     border-style: none;
     width: 10vw;
@@ -91,35 +85,7 @@ body{
     color: #5b5b5b;
 }
 
-.guideT{
-    display: none;
-    position: fixed;
-    top: .5vw;
-}
-
-.guideT button{
-    color: black;
-    border-style: none;
-    width: 10vw;
-    height: 2vw;
-    border-top-right-radius: .5vw;
-    cursor: pointer;
-}
-
-#TBuscaBtn {
-    position: fixed;
-    z-index: 2;
-}
-
-#TCadBtn{
-    position: fixed;
-    background-color: #d0ccd3;
-    border-top-left-radius: .5vw;
-    left: 28vw;
-    color: #5b5b5b;
-}
-
-.mainUser{
+#mainUser{
     background-color: #fff;
     position: fixed;
     top: 2.5vw;
@@ -127,7 +93,7 @@ body{
     height: 100vw;
 }
 
-.mainUser input{
+#mainUser input{
     border-radius: .5vw;
     border-color: black;
     border-style: solid;
@@ -177,10 +143,6 @@ body{
     width: 6vw;
 }
 
-.guideT{
-    position: fixed;
-}
-
 #UBBuscarBtn{
     position: fixed;
     right: 20vw;
@@ -192,10 +154,6 @@ body{
 }
 
 #UserCadParamater{
-    display: none;
-}
-
-.mainTool{
     display: none;
 }
 

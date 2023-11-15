@@ -1,11 +1,17 @@
-const userbtn = document.getElementById("UserBtn");
-const toolbtn = document.getElementById("ToolBtn");
+const ubuscabtn = document.getElementById("UBuscaBtn");
+const ucadbtn = document.getElementById("uCadBtn");
 
-function toolActMain(){
-    const mainuser = document.getElementsByClassName("mainUser");
-    const maintool = document.getElementsByClassName("mainTool");
+function userCadAtc(){
+    const ubuscaparameter = document.getElementById("UserBuscaParamater");
+    const ucadparameter = document.getElementById("UserCadParamater");
+    ubuscabtn.style.backgroundColor = "#d0ccd3";
+    ubuscabtn.style.color = "#5b5b5b";
+    ubuscabtn.style.zIndex = 0;
+    ucadbtn.style.backgroundColor = "#fff";
+    ucadbtn.style.color = "#000";
+    ubuscaparameter.style.display = "none";
+    ucadparameter.style.display = "block";
 
-    maintool.style.display = "block";
-    mainuser.style.display = "none";
 }
-maintool.addEventeListener('click', toolActMain);
+
+ucadbtn.addEventListener('click', userCadAtc);

@@ -165,8 +165,11 @@ body{
     top: 20vw;
     left: 32.5vw;
 }
+.guideT{
+    position: fixed;
+}
 
-.dates input{
+.SaveImgBtn {
     width: 6vw;
 }
 

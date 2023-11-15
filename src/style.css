@@ -30,6 +30,13 @@ body{
     cursor: pointer;
 }
 
+.line{
+    width: 92%;
+    border-color: black;
+    border-style: solid;
+    border-width: .1vw;
+}
+
 #OpIm {
     width: 3.5vw;
 }

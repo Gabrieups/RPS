@@ -163,34 +163,34 @@ body{
 #UCNameIn, #UCEnder{
     position: fixed;
     width: 20vw;
-    top: 30vw;
+    top: 25vw;
 }
 
 #UCId{
     position: fixed;
     width: 10vw;
-    top: 40vw;
+    top: 35vw;
 }
 
 #UCCPF, #UCTelIn {
     position: fixed;
     width: 15VW;
-    top: 30vw;
+    top: 25vw;
     right: 15vw;
 }
 
 #UCEnder {
-    top: 35vw;
+    top: 30vw;
 }
 
 #UCTelIn {
-    top: 35vw;
+    top: 30vw;
 }
 
 #UCBuscarBtn{
     position: fixed;
-    right: 30vw;
-    top: 45vw;
+    right: 40vw;
+    top: 40vw;
 }
 
 #UCBuscarBtn img{

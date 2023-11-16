@@ -53,6 +53,10 @@ body{
     gap: 3vw;
 }
 
+#EncBtn {
+    align-items: center;
+}
+
 #EncBtn img{
     width: 1.5vw;
 }

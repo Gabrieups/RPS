@@ -155,7 +155,32 @@ body{
 
 #UserCadParamater{
     display: none;
+    position: fixed;
+    left: 30vw;
+    top: 10vw;
 }
+
+#UCNameIn, #UCEnder{
+    position: fixed;
+    width: 20vw;
+    top: 30vw;
+}
+
+#UCCPF, #UCTelIn {
+    position: fixed;
+    width: 15VW;
+    top: 30vw;
+    right: 15vw;
+}
+
+#UCEnder {
+    top: 35vw;
+}
+
+#UCTelIn {
+    top: 35vw;
+}
+
 
 .saveBtn{
     background: none;

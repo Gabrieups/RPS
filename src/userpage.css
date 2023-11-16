@@ -166,6 +166,12 @@ body{
     top: 30vw;
 }
 
+#UCId{
+    position: fixed;
+    width: 10vw;
+    top: 40vw;
+}
+
 #UCCPF, #UCTelIn {
     position: fixed;
     width: 15VW;
@@ -179,6 +185,16 @@ body{
 
 #UCTelIn {
     top: 35vw;
+}
+
+#UCBuscarBtn{
+    position: fixed;
+    right: 30vw;
+    top: 45vw;
+}
+
+#UCBuscarBtn img{
+    width: 3vw;
 }
 
 

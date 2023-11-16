@@ -204,13 +204,14 @@ body{
 
 #UCselect {
     position: fixed;
-    width: 15vw;
-    top: 30vw;
+    width: 15.5vw;
+    top: 35vw;
     right: 15vw;
-    border-radius: .5vw;
+    border-radius: .6vw;
     border-color: black;
     border-style: solid;
-    height: 1.5vw;
+    border-width: .2vw;
+    height: 2.2vw;
 }
 
 .saveBtn{

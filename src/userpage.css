@@ -201,6 +201,16 @@ body{
     width: 3vw;
 }
 
+#UCselect {
+    position: fixed;
+    width: 15vw;
+    top: 30vw;
+    right: 15vw;
+    border-radius: .5vw;
+    border-color: black;
+    border-style: solid;
+    height: 1.5vw;
+}
 
 .saveBtn{
     background: none;

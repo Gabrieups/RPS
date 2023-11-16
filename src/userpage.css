@@ -141,6 +141,7 @@ body{
     position: fixed;
     top: 20vw;
     left: 32.5vw;
+    font-size: 1vw;
 }
 
 .dates input{
